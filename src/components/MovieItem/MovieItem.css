@@ -1,0 +1,41 @@
+.movie-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.movie-item__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-item__poster {
+    height: 300px;
+    margin: 0 20px 20px 0;
+}
+
+.movie-item__title {
+  flex: 1 1 auto;
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.movie-item__add-button {
+    border: none;
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    width: 220px;
+    border-radius: 3px;
+}
+
+.movie-item__add-button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}

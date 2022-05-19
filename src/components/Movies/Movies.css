@@ -1,0 +1,10 @@
+.movies__item {
+    width: 50%;
+    margin-bottom: 21px;
+}
+
+.movies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
