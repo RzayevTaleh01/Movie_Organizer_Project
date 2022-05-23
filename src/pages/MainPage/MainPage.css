@@ -7,6 +7,7 @@
     background-color: #1F1F1F;
 }
 
+
 .main-page__main-section {
     padding: 40px 0 160px 20px;
     box-sizing: border-box;
@@ -18,10 +19,10 @@
 }
 
 .main-page__favorites {
-    width: 20%;
-  margin-right: 20px;
-  padding-top: 40px;
-  position: fixed;
-  top: 92px;
-  right: 440px;
+    width: 25%;
+    margin-right: 20px;
+    padding-top: 40px;
+    position: fixed;
+    top: 92px;
+    right: 20%;
 }

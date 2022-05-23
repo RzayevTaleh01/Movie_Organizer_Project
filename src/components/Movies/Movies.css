@@ -1,10 +1,10 @@
 .movies__item {
-    width: 50%;
+    width: 80%;
     margin-bottom: 21px;
 }
 
 .movies {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }

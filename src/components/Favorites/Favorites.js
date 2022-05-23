@@ -50,8 +50,8 @@ class Favorites extends Component {
   render() {
     return (
       <div className="favorites">
-        <input value={this.state.title} onChange={this.handleInput}
-              disabled={this.state.inputActive ? null : "disabled"}  className="favorites__name" placeholder="Создать список" />
+        <input required value={this.state.title} onChange={this.handleInput}
+              disabled={this.state.inputActive ? null : "disabled"}  className="favorites__name" placeholder="Siyahının adını daxil edin" />
         <ul className="favorites__list">
           {this.props.listMovies.map((item) => {
             return (
@@ -64,11 +64,11 @@ class Favorites extends Component {
         </ul>
         <button type="button" onClick={() => this.handleSaveList()}
                 className={`favorites__save ${this.state.linkActive ? "link__none" : null}`}>
-          Сохранить список
+          Yadda Saxla
         </button>
         <a href={`http://localhost:3000/list/${this.state.textLink}`}
            className={`link__none ${this.state.linkActive ? "link__block" : null}`}
-           target="_blank" >Поделиться с друзьями</a>
+           target="_blank" >Paylaşım Linki</a>
       </div>
     );
   }
